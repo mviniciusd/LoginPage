@@ -1,0 +1,39 @@
+#body_bg{ 
+    background-color:white;
+    font-family:sans-serif;
+    font-size: 12pt;
+}
+
+#login-form{ 
+    background:white; 
+    border: 3px solid #eeeee; 
+    padding:9px 9px;
+    width:300px; 
+    border-radius:3px; 
+}
+
+#user_id, #user_pass{
+    padding: 8px;
+    border: solid gray 1px;
+    width: 100%;
+}
+
+input[type="submit"], input[type="reset"]{
+    border-radius: 3px;
+    padding: 8px;
+    width: 45%;
+    border: solid 1px;
+    background-color:beige;
+    border-radius: 2px;
+}
+
+label{
+    padding: 8px;
+    float: left;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover{
+    background-color: bisque;
+    transition-duration: 1s;
+}
+
